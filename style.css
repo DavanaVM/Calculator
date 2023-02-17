@@ -1,0 +1,93 @@
+html{
+    color-scheme: dark light;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#displ{
+    margin-top: 20px;
+    flex-basis:100%;
+    background-color: lightgray;
+    min-width: 1px;
+    height:60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#calcbod{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-radius: 20px;
+    border: 1px solid white;
+    flex-basis: 20%;
+    justify-content: space-between;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button{
+    flex-basis:23%;
+    text-align: center;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#beq{
+    order: 14;
+    flex-basis:50%;
+}
+
+#b1{
+    order: 8;
+}
+#b2{
+    order: 9;
+}
+#b3{
+    order: 10;
+}
+#b4{
+    order: 4;
+}
+#b5{
+    order:5;
+}
+#b6{
+    order: 6;
+}
+#plus{
+    order: 3;
+}
+#minus{
+    order: 7;
+}
+#times{
+    order: 11;
+}
+#dot{
+    order: 13;
+}
+
+#b7{
+    order: 0;
+}
+#b8{
+    order: 1;
+}
+#b9{
+    order: 2;
+}
+#b0{
+    order: 12;
+}
